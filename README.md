@@ -15,7 +15,7 @@ For the evaluation of the analysis, confusion_matrix() and classification_report
   A reltively decent recall score, wich means that the model is likely to retrieves 85% of the high risk loan borrowers.
 * Accuracy: 0.99 <br />
   The accuracy score tells us that the model is at approximately 99% at prediction the loan risk of borrowers. <br />
-<br>
+<br />
 Screenshot of Classification report using Sklearn classification_report() function:
 ![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/classification_report.png)
 Screenshot of Confusion Matrix using Sklearn confusion_matrix() function:
