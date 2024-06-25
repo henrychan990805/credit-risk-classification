@@ -16,6 +16,6 @@ For the evaluation of the analysis, confusion_matrix() and classification_report
 * Accuracy: 0.99 <br />
   The accuracy score tells us that the model is at approximately 99% at prediction the loan risk of borrowers. <br /><br />
 Screenshot of Classification report using Sklearn classification_report() function:
-![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/classification_report.png)
+![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/classification_report.png) <br /><br />
 Screenshot of Confusion Matrix using Sklearn confusion_matrix() function:
 ![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/confusion_matrix.png)
