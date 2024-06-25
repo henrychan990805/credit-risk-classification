@@ -18,4 +18,10 @@ For the evaluation of the analysis, confusion_matrix() and classification_report
 Screenshot of Classification report using Sklearn classification_report() function:
 ![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/classification_report.png) <br /><br />
 Screenshot of Confusion Matrix using Sklearn confusion_matrix() function:
-![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/confusion_matrix.png)
+![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/confusion_matrix.png)<br /><br />
+## Summary
+From the accuracy score, we can conclude that the model is relatively good at predicting loan risks. If we look at the precision score and recall score of healthy risk loans, the model seems to be good at predicting the borrowers with healthy loan risks. However, the precision score and recall score
+for high-risk loan borrowers are relatively lower than the scores of the healthy-risk loan borrowers. <br />
+Even though 0.91 and 0.85 are decent scores for precision score and recall score, I would argue that the logistic regression model is not adequate enough to be used. As a peer-to-peer lending service, we care more about high-risk loan borrowers. However, from the recall score,
+we can tell that the model is missing approximately 15% of the high-risk borrowers. This implies that there will be a possible risk (15%) of making false predictions of spotting high loan-risk borrowers if we use the model to predict loan risk. This risk is relatively high. In the long term, this might cause the company to be less profitable than it should be.
+Therefore, I argue that the Sklearn logistic regression model is not adequate enough for the task of predicting loan risks.
