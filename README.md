@@ -5,3 +5,17 @@ The dataset is separated randomly into a testing dataset and a training dataset 
 For the evaluation of the analysis, confusion_matrix() and classification_report() functions from Sklearn are used. 
 <br>
 ## Result
+* Precision Score of healthy risk(0): 0.99 \n
+  A relatively high precision score, which means that the model is very good at predicting borrowers with healthy loan risk.
+* Precision Score of high risk(1): 0.91 \n
+  A relatively good precision score, which means that the model is good at predicting borrowers with high risk loan borrowers.
+* Recall Score of healthy risk(0): 1.00 \n
+  A almost perfect recall score, which means that the model retrieves almost all healthy risk loan borrowers.
+* Recall Score of high risk(1): 0.85 \n
+  A reltively decent recall score, wich means that the model is likely to retrieves 85% of the high risk loan borrowers.
+* Accuracy: 0.99 \n
+  The accuracy score tells us that the model is at approximately 99% at prediction the loan risk of borrowers.
+Screenshot of Classification report using Sklearn classification_report() function:
+![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/classification_report.png)
+Screenshot of Confusion Matrix using Sklearn confusion_matrix() function:
+![Alt text](https://github.com/henrychan990805/credit-risk-classification/blob/a7210824502251aba713e60b88f5ac44fa90d18b/Result/confusion_matrix.png)
